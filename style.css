@@ -17,7 +17,11 @@ img {
   width: 100%;
 }
 
-.title11 .title1 {
+.title11 {
+   font-family: "young-serif";
+}
+
+.title1 {
   font-family: "young-serif";
 }
 
@@ -88,12 +92,13 @@ hr {
 .dv1 {
   background-color: hsl(330, 100%, 98%);
   margin-top: 20Px;
-  margin: 0 40px;
+  margin: 0 0px;
 }
 
 .ol {
   font-family: "outfit";
   color: hsl(30, 10%, 34%);
+  line-height: 30px;
 }
 
 .title1 {
@@ -121,15 +126,15 @@ hr {
 
 .nutrition-row {
   display: flex;
-  justify-content: space-between;
-  padding: 10px 40px;
-  font-family: "outfit";
+  padding: 10px 0px;
+  font-family: "outfit";  
 }
 
 .nutrition-row p {
   margin: 0;
   color: hsl(30, 10%, 34%);
-
+  padding-left: 30px;
+  width: 35%;
 }
 
 .Calories, .Carbs, .Protein, .Fat {
